@@ -7,11 +7,14 @@ const Pill = (props) => {
         borderRadius: "20px",
         padding: "7px 18px",
         height: "100%",
+        backgroundColor: "transparent",
+        color: "white",
+        ...props.style,
     }
 
-    return <span style={style}> 
+    return <button style={style}> 
         {props.children}
-    </span>
+    </button>
 
 }
 export {Pill}

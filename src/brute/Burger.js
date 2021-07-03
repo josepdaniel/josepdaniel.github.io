@@ -12,6 +12,6 @@ const Burger = (props) => {
             <line x1="12" y1="0" x2="12" y2="40" style={style}/>
             <line x1="21" y1="0" x2="21" y2="40" style={style}/>
         </svg>
-    )
+    )    
 }
 export {Burger}
