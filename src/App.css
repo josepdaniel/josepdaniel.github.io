@@ -1,11 +1,11 @@
 body {
     background-color: #141414;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: white;
 
 }
 p {
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: lighter;
 }
 
@@ -25,24 +25,27 @@ p {
 
 #welcome {
     float: right;
+    margin-right: 40px;
 }
 
 #josephdaniel {
     font-size: 11.8vw;
     position: absolute;
-    top: calc(100vh - 18.8vw); 
+    top: calc(100vh - 19.5vw); 
+}
+
+#resume {
+    margin-top: 25vh;
 }
 
 
-#skills {
-    margin-top: 20vh;
+.shortcuts {
+    margin-right: 30px;
+    margin-top: 30px;
+    float: right;
+    max-width: 350px;
 }
 
-.skillbox {
-    margin-top: 10vh;
-    margin-left: 30px;
-    max-width: 400px;
-}
 
 
 .clearfix::after {
@@ -52,7 +55,7 @@ p {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
     #welcome {
         margin-top: 150px;
     }
@@ -65,17 +68,22 @@ p {
         width: 300px;
     }
 
+    .shortcuts {
+        float: left;
+        margin-left: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
 
     #josephdaniel {
-        --topAdjustment: 115px;
+        --topAdjustment: 110px;
         --topOriginal: calc(100vh - 18.8vw);
         top: calc(var(--topOriginal) - var(--topAdjustment));
     }
 
-    .skillbox {
+    .shortcuts {
         margin-left: 10px;
     }
 }

@@ -1,0 +1,45 @@
+#component-resume h2 {
+    margin: 0;
+}
+
+#skills {
+    width: 40%;
+    float: left;
+}
+
+#experience {
+    float: left;
+    margin-left: 5%;
+    max-width: 45%;
+}
+
+.skillbox {
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.experience-entry {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #skills {
+        width: 90%;
+    }
+
+    #experience {
+        margin-top: 100px;
+        margin-left: 10px;
+        max-width: 85%;
+    }
+
+    .skillbox {
+        margin-left: 10px;
+    }
+
+    .experience-entry {
+        margin-bottom: 40px;
+    }
+
+}

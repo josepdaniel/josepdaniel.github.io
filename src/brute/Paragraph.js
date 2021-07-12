@@ -6,7 +6,7 @@ const Paragraph = (props) => {
         paddingLeft: "20px"
     }
 
-    return <div style={style}> {props.children} </div>
+    return <div style={style}> <p> {props.children} </p> </div>
 }
 
 export {Paragraph}
