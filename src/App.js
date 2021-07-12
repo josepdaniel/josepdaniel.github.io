@@ -28,7 +28,7 @@ const ControlPanel = (props) => {
 }
 
 const Name = (props) => {
-  return <h1 id="josephdaniel"> JOSEPH DANIEL </h1>
+  return <h1 id="josephdaniel"> JOE DANIEL </h1>
 }
 
 const Banner = (props) => {
@@ -108,7 +108,12 @@ const App = () => {
       
 
 
-      <div style={{height: "700px"}}></div>
+      <div style={{height: "100vh"}}>
+
+        <h2 style={{paddingTop: "40vh", fontSize: "50px", textAlign: "center"}}> Get in touch </h2>
+        <h4 style={{fontSize: "25px", fontWeight: "lighter", textAlign: "center"}}> <u> <a href="mailto:joe.daniel@outlook.com.au" style={{color: "white"}}>joe.daniel@outlook.com.au </a> </u> </h4>
+
+      </div>
     </div>
   )
   

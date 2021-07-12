@@ -29,9 +29,9 @@ p {
 }
 
 #josephdaniel {
-    font-size: 11.8vw;
+    font-size: 15.8vw;
     position: absolute;
-    top: calc(100vh - 19.5vw); 
+    top: calc(100vh - 24.9vw); 
 }
 
 #resume {
@@ -79,7 +79,7 @@ p {
 
     #josephdaniel {
         --topAdjustment: 110px;
-        --topOriginal: calc(100vh - 18.8vw);
+        --topOriginal: calc(100vh - 24.4vw);
         top: calc(var(--topOriginal) - var(--topAdjustment));
     }
 
