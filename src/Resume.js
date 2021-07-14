@@ -79,6 +79,7 @@ const Resume = () => {
                             <li> Design, develop, build and test <strong> serverless </strong> applications for monitoring large-scale distributed systems using <strong>Python</strong>, <strong>Java</strong>, and <strong>TypeScript</strong>. </li>
                             <li> Implement modern, maintainable and performant code, by leveraging <strong>infrastructure-as-code</strong> and <strong> highly available architectures. </strong></li>
                             <li> Participate in the design and scoping of greenfield projects and collaborate with other developers in an agile, fast-paced environment. </li>
+                            <li> Coordinate annual bootcamps and Hackathons in Melbourne, Adelaide, and Sydney for university students.</li>
                         </ul>
                     </div>
 
