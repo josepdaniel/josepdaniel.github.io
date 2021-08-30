@@ -72,7 +72,7 @@ const Resume = () => {
             </div>
 
             <div id="experience">
-            <h1 style={{fontSize: 40}}> Professional Experience </h1>
+            <h1 style={{fontSize: 40}}> Experience </h1>
                 <Paragraph>
                     <div class="experience-entry">
                         <h2> Software Engineer <span style={{color: "#bbbbbb"}}> @  <a href="https://www.afr.com/chanticleer/how-accenture-s-sydney-ai-team-of-one-went-global-20210618-p5825c">Accenture MyWizard AiOps</a></span></h2>
