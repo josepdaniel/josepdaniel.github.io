@@ -14,6 +14,7 @@ const Resume = () => {
     return (
         <div id="component-resume">
             <div id="skills">
+                <h1 style={{marginLeft: 10, fontSize:40}}> Technologies </h1>
                 <div class="skillbox">
                     <Paragraph>
                         <h2 style={{fontSize: 15, marginBottom: 20}}> Backend Engineering </h2>
@@ -71,29 +72,46 @@ const Resume = () => {
             </div>
 
             <div id="experience">
+            <h1 style={{fontSize: 40}}> Professional Experience </h1>
                 <Paragraph>
                     <div class="experience-entry">
-                        <h2> Software Engineer <span style={{color: "#bbbbbb"}}> @  Accenture MyWizard AiOps</span></h2>
+                        <h2> Software Engineer <span style={{color: "#bbbbbb"}}> @  <a href="https://www.afr.com/chanticleer/how-accenture-s-sydney-ai-team-of-one-went-global-20210618-p5825c">Accenture MyWizard AiOps</a></span></h2>
                         <h3> <i> Feb 2021 - Present </i> </h3>
+                        
                         <ul>
-                            <li> Design, develop, build and test <strong> serverless </strong> applications for monitoring large-scale distributed systems using <strong>Python</strong>, <strong>Java</strong>, and <strong>TypeScript</strong>. </li>
+                            <li> Backend engineer for <i> MyWizard AiOps </i>, a software-as-a-service product for low-code/no-code automation solutions. </li>
+                            <li> Designed, developed, built and tested <strong> serverless </strong> monitoring applications for large-scale distributed systems. </li>
                             <li> Implement modern, maintainable and performant code, by leveraging <strong>infrastructure-as-code</strong> and <strong> highly available architectures. </strong></li>
-                            <li> Participate in the design and scoping of greenfield projects and collaborate with other developers in an agile, fast-paced environment. </li>
                             <li> Coordinate annual bootcamps and Hackathons in Melbourne, Adelaide, and Sydney for university students.</li>
                         </ul>
+                        <Pill style={skillStyle}> TypeScript </Pill>
+                        <Pill style={skillStyle}> Python </Pill>
+                        <Pill style={skillStyle}> Serverless </Pill>
+                        <Pill style={skillStyle}> AWS </Pill>
+                        <Pill style={skillStyle}> Azure DevOps </Pill>
                     </div>
+                    </Paragraph>
 
+                    <Paragraph>
                     <div class="experience-entry">
-                        <h2> Software Engineer <span style={{color: "#bbbbbb"}}> @  Spot Parking</span></h2>
+                        <h2> Software Engineer <span style={{color: "#bbbbbb"}}> @  <a href="https://spotparking.com.au" > Spot Parking</a>  </span></h2>
                         <h3> <i> Jan 2019 - Dec 2020 </i> </h3>
                         <ul>
+                            <li> Full stack engineer for a digital-parking application, building out ML services to reduce manual workload by 80%. </li>
+                            <li> Built a computer-vision service for converting image data to machine-readable business rules for parking restrictions.</li>
                             <li> Worked with a small team of developers to build a product that reinvents the parking experience.</li>
                             <li> Led a greenfield project leveraging <strong> computer vision </strong> and <strong> machine learning </strong> to automate data ingestion pipelines. </li>
                             <li> Built out backend microservices using <strong>NodeJS</strong> and <strong>MongoDB</strong>, with a <strong>ReactJS</strong> frontend.</li>
                         </ul> 
-                        
+                        <Pill style={skillStyle}> PyTorch </Pill>
+                        <Pill style={skillStyle}> Python </Pill>
+                        <Pill style={skillStyle}> C/C++ </Pill>
+                        <Pill style={skillStyle}> React </Pill>
+                        <Pill style={skillStyle}> AWS </Pill>
                     </div>
+                    </Paragraph>
 
+                    <Paragraph>
                     <div class="experience-entry">
                         <h2> Robotics Intern <span style={{color: "#bbbbbb"}}> @  Australian Centre for Field Robotics</span></h2>
                         <h3> <i> Jan 2018 - Mar 2018 </i> </h3>
@@ -102,35 +120,23 @@ const Resume = () => {
                             <li> Designed and developed an ultrasonic 'virtual-bumper' module on a <strong>RISC</strong> microcontroller for <strong>autonomous vehicles</strong>. </li>
                             <li> Prototyped and fabricated low level hardware, with software components in <strong> C++</strong>. </li>
                         </ul> 
+                        <Pill style={skillStyle}> Python </Pill>
+                        <Pill style={skillStyle}> C/C++ </Pill>
+                        <Pill style={skillStyle}> Assembly Language </Pill>
                     </div>
+                    </Paragraph>
 
-                    <div class="experience-entry">
-                        <h2> Technology Bootcamp Participant <span style={{color: "#bbbbbb"}}> @  Accenture</span></h2>
-                        <h3> <i> Jan 2020 </i> </h3>
-                        <ul>
-                            <li> Built an app over 5 days to help consultants find their next project based on their skills, interests and growth-areas.</li>
-                            <li> Programmed backend microservice using <strong>TypeScript</strong>, <strong>NextJS</strong>, <strong>PostgreSQL</strong> and <strong>Elasticsearch</strong>.</li>
-                            <li> Employed <strong>analytics</strong> and <strong>machine learning</strong> to maximise search relevance. </li>
-                        </ul> 
-                    </div>
-
-                    <div class="experience-entry">
-                        <h2> Honours Thesis <span style={{color: "#bbbbbb"}}> @  School of Aerospace, Mechanical, and Mechatronic Engineering</span></h2>
-                        <h3> <i> Aug 2019 - Aug 2021 </i> </h3>
-                        <ul>
-                            <li> Designed, implemented and tested a novel ML algorithm for tackling <strong>visual odometry</strong> and <strong>shape estimation</strong>. </li>
-                            <li> Proposed methodology out-performed state-of-the-art methods and was accepted to the 2021 <strong>International Conference on Intelligent Robots and Systems</strong>.</li>
-                        </ul> 
-                    </div>
-
+                <Paragraph>
                     <div class="experience-entry">
                         <h2> Project Lead <span style={{color: "#bbbbbb"}}> @  Ruffalo Noel Levitz</span></h2>
                         <h3> <i> May 2015 - Nov 2018 </i> </h3>
                         <ul>
-                            <li> Led the fundraising campaign for important scholarships, research and facilities with over <strong>$500k</strong> raised in 2018.</li>
-                            <li> Led a team of 30-40 people, coordinating training and onboarding plans. </li>
+                            <li> Led the fundraising campaign for important research, scholarships, and facilities with over <strong>$500k</strong> raised in 2018.</li>
+                            <li> Led a team of 35+ people and refined the onboarding materials, reducing employee turnover by 30%. </li>
                             <li> Coordinated with stakeholders to deliver regular updates and identify key growth segments. </li>
                         </ul> 
+                        <Pill style={skillStyle}> Stakeholder Management </Pill>
+                        <Pill style={skillStyle}> Project Delivery  </Pill>
                     </div>
                 </Paragraph>
             </div>

@@ -7,13 +7,18 @@ body {
 p {
     /* font-size: larger; */
     font-weight: lighter;
+    line-height: 1.4;
+}
+
+a {
+    color:inherit;
 }
 
 #gday {
     float: left;
     width: 400px;
     margin-left: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
 }
 
@@ -29,9 +34,10 @@ p {
 }
 
 #josephdaniel {
-    font-size: 15.8vw;
+    font-size: 12.8vw;
     position: absolute;
-    top: calc(100vh - 24.9vw); 
+    top: calc(100vh - 40vw); 
+    /* margin-left: 40px; */
 }
 
 #resume {
@@ -57,7 +63,7 @@ p {
 
 @media only screen and (max-width: 1100px) {
     #welcome {
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     #gday {
@@ -78,7 +84,7 @@ p {
 @media only screen and (max-width: 600px) {
 
     #josephdaniel {
-        --topAdjustment: 110px;
+        --topAdjustment: 180px;
         --topOriginal: calc(100vh - 24.4vw);
         top: calc(var(--topOriginal) - var(--topAdjustment));
     }
@@ -87,3 +93,13 @@ p {
         margin-left: 10px;
     }
 }
+
+/* 
+@media only screen and (max-height: 650px) {
+
+    #josephdaniel {
+        position: static;
+    }
+
+    
+} */
