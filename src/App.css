@@ -34,9 +34,9 @@ a {
 }
 
 #josephdaniel {
-    font-size: 12.8vw;
+    font-size: 15.8vw;
     position: absolute;
-    top: calc(100vh - 40vw); 
+    top: calc(100vh - 26vw); 
     /* margin-left: 40px; */
 }
 
@@ -84,7 +84,7 @@ a {
 @media only screen and (max-width: 600px) {
 
     #josephdaniel {
-        --topAdjustment: 180px;
+        --topAdjustment: 130px;
         --topOriginal: calc(100vh - 24.4vw);
         top: calc(var(--topOriginal) - var(--topAdjustment));
     }

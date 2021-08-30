@@ -13,7 +13,7 @@ const ControlPanel = (props) => {
   
   let style = {
     display: "flex",
-    columnGap: "14px",
+    columnGap: "5px",
     position: "absolute",
     top: 20,
     left: 20
@@ -21,9 +21,8 @@ const ControlPanel = (props) => {
 
   return (
       <span style={style}>
-        {/* <Burger> </Burger> */}
+        <Burger style={{marginRight: 15}}> </Burger>
         <span> <Pill> <AnchorLink href="#contact" style={{textDecoration: "none"}}> <i> Contact </i> </AnchorLink> </Pill> </span>
-        <span> <Pill> <AnchorLink href="#experience" style={{textDecoration: "none"}}> Experience </AnchorLink> </Pill> </span>
         <span> <Pill> <AnchorLink href="#projects" style={{textDecoration: "none"}}>Projects</AnchorLink> </Pill> </span>
       </span>
 
@@ -31,7 +30,7 @@ const ControlPanel = (props) => {
 }
 
 const Name = (props) => {
-  return <h1 id="josephdaniel"> JOSEPH DANIEL </h1>
+  return <h1 id="josephdaniel"> JOE DANIEL </h1>
 }
 
 const Banner = (props) => {
@@ -120,11 +119,13 @@ const Home = () => {
       
 
 
-      <div style={{height: "100vh", padding: "30px"}} id="contact">
+      <div style={{height: "100vh", padding: "30px", fontWeight: "lighter"}} id="contact">
 
         {/* <div style={{border: "1px solid white", height: "90%", padding: "10px"}}> */}
-          <h2 style={{paddingTop: "30vh", fontSize: "50px", textAlign: "center"}}> Get in touch </h2>
-          <h4 style={{fontSize: "25px", fontWeight: "lighter", textAlign: "center"}}> <u> <a href="mailto:joe.daniel@outlook.com.au" style={{color: "white"}}>joe.daniel@outlook.com.au </a> </u> </h4>
+          <h2 style={{paddingTop: "30vh", fontSize: "30px", textAlign: "center"}}> Say g'day 👋 </h2>
+          <h4 style={{fontSize: "25px", fontWeight: "lighter", textAlign: "center"}}> <u> <a href="mailto:joe.daniel@outlook.com.au" style={{color: "white"}}>Email </a> </u> </h4>
+          <h4 style={{fontSize: "25px", fontWeight: "lighter", textAlign: "center"}}> <u> <a href="https://github.com/josepdaniel" style={{color: "white"}}>Github </a> </u> </h4>
+          <h4 style={{fontSize: "25px", fontWeight: "lighter", textAlign: "center"}}> <u> <a href="https://www.linkedin.com/in/josep-daniel/" style={{color: "white"}}>LinkedIn </a> </u> </h4>
         {/* </div> */}
         {/* </div> */}
 
