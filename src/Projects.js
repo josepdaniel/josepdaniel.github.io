@@ -82,7 +82,7 @@ const Projects = () => {
             <h2>
               Spotty Vision: &nbsp; 
               <span style={{ color: "#bbbbbb" }}>
-                  // Automated interpretation of parking signs
+                  // Automated interpretation of parking restrictions
               </span>
             </h2>
            

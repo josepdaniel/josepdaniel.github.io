@@ -52,8 +52,8 @@ const Header = (props) => {
   const Introduction = () => {
     return <div id="gday">
       <Paragraph>
-        G'day, I'm JD. I'm a Sydney based <strong> full-stack Software Engineer </strong>. <br /><br />
-        I like to <strong> build </strong> cool stuff, <strong> learn </strong> new things, cook great food, and run long distances. <br /><br />
+        G'day, I'm JD. I'm a Sydney based <strong> full-stack Software Engineer </strong> with 3 years of experience. <br /><br />
+        I enjoy building cool stuff, learning new things, cooking/eating great food, and running long distances. <br /><br />
         I sometimes take photos of things I find interesting. <br /><br />
       </Paragraph>
     </div>

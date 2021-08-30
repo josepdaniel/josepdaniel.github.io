@@ -79,8 +79,8 @@ const Resume = () => {
                         <h3> <i> Feb 2021 - Present </i> </h3>
                         
                         <ul>
-                            <li> Backend engineer for <i> MyWizard AiOps </i>, a software-as-a-service product for low-code/no-code automation solutions. </li>
-                            <li> Designed, developed, built and tested <strong> serverless </strong> monitoring applications for large-scale distributed systems. </li>
+                            <li> Backend engineer for <i> MyWizard AiOps</i>, a software-as-a-service product for low-code/no-code automation solutions. </li>
+                            <li> Designed, developed, built and tested <strong> serverless </strong> instrumentation apps for large-scale distributed systems. </li>
                             <li> Implement modern, maintainable and performant code, by leveraging <strong>infrastructure-as-code</strong> and <strong> highly available architectures. </strong></li>
                             <li> Coordinate annual bootcamps and Hackathons in Melbourne, Adelaide, and Sydney for university students.</li>
                         </ul>
