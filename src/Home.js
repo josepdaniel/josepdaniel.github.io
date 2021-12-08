@@ -89,7 +89,7 @@ const Home = () => {
             <Paragraph>
               <i> What I do </i> <br />
               <div style={{fontSize: "20px"}}>
-                <p> Fontend and Backend Development </p>
+                <p> Frontend and Backend Development </p>
                 <p> Serverless </p>
                 <p> DevOps Engineering </p>
               </div>
