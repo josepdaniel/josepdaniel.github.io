@@ -37,6 +37,7 @@ a {
     font-size: 15.8vw;
     position: absolute;
     top: calc(100vh - 26vw); 
+    font-family: 'Raleway', sans-serif;
     /* margin-left: 40px; */
 }
 
