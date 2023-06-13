@@ -1,0 +1,22 @@
+name: Joe Daniel
+
+title: Joe Daniel
+
+tagline: Software Engineer
+
+description: Software Engineer
+
+# global author information
+author: Joe Daniel
+
+permalink: /:year/:month/:day/:title/
+
+footer-links:
+  email: joe.daniel@outlook.com.au
+  github: josepdaniel
+  linkedin: josep-daniel
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

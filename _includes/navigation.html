@@ -1,0 +1,29 @@
+<nav>
+  <div>
+      <ul class="nav-list">
+        <li class="nav-brand">
+            <svg class="logo-thing" height="40" width="25">
+              <line x1="3" y1="0" x2="3" y2="40"/>
+              <line x1="12" y1="0" x2="12" y2="40"/>
+              <line x1="21" y1="0" x2="21" y2="40"/>
+            </svg> 
+        </li>
+
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+
+          <a href="{{ item.link | relative_url }}" 
+            {% if page.url == item.link %} 
+              class="pill nav-link active" 
+            {% else %} 
+              class="pill nav-link" 
+            {% endif %}>
+            {{ item.name }}
+          </a>
+
+        </li>
+        {% endfor %}
+
+      </ul>
+  </div>
+</nav>
